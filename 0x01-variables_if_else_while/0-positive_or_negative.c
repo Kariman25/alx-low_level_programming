@@ -5,7 +5,7 @@
  * main - A c program will assign a random number to the variable n
  * print whether the number stored in the variable n i
  * s positive or negative
- * return: 0 (Success)
+ * Return: 0 (Success)
  **/
 
 int main(void)
