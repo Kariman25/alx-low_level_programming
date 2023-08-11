@@ -6,18 +6,17 @@
  * print whether the number stored in the variable n i
  * s positive or negative
  * return: (0)
- * */
+ **/
 
-/* betty style doc for function main goes there */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is possitive", n)
+		printf("%d is positive", n)
 	}
 	else if (n == 0)
 	{
@@ -27,5 +26,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n)
 	}
-        return (0);
+	return (0);
 }
