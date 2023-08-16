@@ -1,9 +1,9 @@
 #include "main.h"
 	/**
-	 * main - print _putchar, followed by a new line
-	 * it is written by krkr
-	 * Return: 0
-	 */
+	*main - print _putchar
+	*it is written by krkr
+	*Return:
+	*/
 
 
 	int main(void)
